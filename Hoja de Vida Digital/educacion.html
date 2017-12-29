@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hoja de Vida</title>
+  </head>
+  <body>
+    <header>
+      <svg height="150" width="500">
+        <ellipse cx="230" cy="100" rx="220" ry="30" style="fill:gray" />
+        <ellipse cx="220" cy="70" rx="190" ry="50" style="fill:blue" />
+      </svg>
+      <h1>Hoja de Vida</h1>
+        <h2>Carlos Alberto Desiderio Calderon</h2>
+        <h3>Guayaquil, 29 de Diciembre del 2017 </h3>
+    </header>
+    <nav>
+      <a href="index.html">Inicio</a> | <a href="educacion.html">Educación</a> | <a href="experiencia.html">Experiencia</a>
+    </nav>
+    <p><h2>Educación</h2></p>
+    <section id="Educacion">
+      <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+          <tr>
+            <td><strong>Anio</strong></td>
+            <td><strong>Institución</strong></td>
+            <td><strong>Lugar</strong></td>
+            <td><strong>¿Culminó?</strong></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2017</td>
+            <td>Escuela Superior Politécnica del Litoral (Espol)</td>
+            <td>Guayaquil</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>2001</td>
+            <td>Unidad Educativa O'Neil</td>
+            <td>Guayaquil</td>
+            <td>SI</td>
+          </tr>
+          <tr>
+            <td>1996</td>
+            <td>Unidad Educativa O'Neil</td>
+            <td>Guayaquil</td>
+            <td>SI</td>
+          </tr>
+        </tbody>
+
+      </table>
+    </section>
+    <section id="Formulario">
+      <form class="formulario" name="form">
+          <p>
+            <strong>Agregar Estudios</strong>
+          </p>
+          <label>
+            <strong>Año:</strong>
+          </label>
+            <select>
+              <option value="">2017</option>
+              <option value="">2016</option>
+              <option value="">2015</option>
+            </select>
+            <br>
+            <br>
+          <label>
+            <strong>Institución:</strong>
+          </label>
+            <input type="text" name="institucion" placeholder="Ingrese Institución" required>
+            <br>
+            <br>
+          <label>
+            <strong>Lugar:</strong>
+          </label>
+            <input type="text" name="lugar" placeholder="Ingrese Lugar" required>
+            <br>
+            <br>
+          <label>
+            <strong>¿Culminó?:</strong>
+          </label>
+            <input type="radio" name="RAD">
+              <label>Si</label>
+            <input type="radio" name="RAD">
+              <label>No</label>
+              <br>
+              <br>
+          <input type="submit" name="Enviar" value="Enviar">
+      </form>
+    </section>
+    <br>
+    <br>
+  <footer>
+    cdesiderio@saicoconsulting.com | +593959834234 | Guayaquil,Ecuador
+  </footer>
+  </body>
+</html>
