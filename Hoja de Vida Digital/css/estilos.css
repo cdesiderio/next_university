@@ -1,0 +1,53 @@
+body
+{
+  background-color: gray;
+}
+footer
+{
+  margin-top: 20px;
+}
+#InformacionPersonal
+{
+
+}
+
+#Contenedor
+{
+  font-family: Helvetica;
+  font-size: 16px;
+}
+
+#Encabezado
+{
+  display: block;
+  margin: 0 auto;
+}
+.itemIndice
+{
+  list-style-type: upper-roman;
+}
+img[src|='foto']
+{
+  border-radius: 50px;
+}
+
+*
+{
+  margin: 1vh 1vw;
+}
+
+h1 + h2
+{
+  text-decoration: underline;
+}
+
+h2 ~ p
+{
+  text-align: justify;
+
+}
+
+article>h2
+{
+  text-decoration: underline;
+}

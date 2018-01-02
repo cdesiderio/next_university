@@ -1,7 +1,10 @@
+body p{
+color: green;
+}
 body
 {
   background-color: black;
-  color: white;
+  color: white  !important;
   font-family: Verdana;
 }
 h1
@@ -17,4 +20,12 @@ div
   margin-top: 10px;
   margin-left: 20px;
 
+}
+p
+{
+  color: blue;
+}
+
+body{
+color: red;
 }
