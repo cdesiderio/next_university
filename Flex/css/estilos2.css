@@ -1,0 +1,32 @@
+div
+{
+  height: 150px;
+  flex-flow: column;
+  top: 0;
+}
+h1
+{
+  text-align: center;
+}
+.prod-destacados
+{
+  background-color: blue;
+}
+.ofertas
+{
+  background-color: orange;
+}
+
+.disponible
+{
+  background-color: red;
+}
+
+div[class*='producto']
+{
+  background-color: white ;
+  display: inline-block;
+  height: 50%;
+  width: 40%;
+  margin-left: 30px;
+}
