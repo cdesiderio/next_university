@@ -41,4 +41,21 @@ footer {
 #contenido>p>img
 {
 	float:right;
+	border-radius: 6px;
+}
+
+#contenido
+{
+	background-image: url('../imagenes/imagen1.jpg') 	;
+}
+
+body header
+{
+	padding: 3px 10px;
+	margin-bottom: 5px;
+	border-radius: 15px;
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
 }
