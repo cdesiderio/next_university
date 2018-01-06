@@ -1,0 +1,63 @@
+body
+{
+  /*CG: 1. Utiliza la tipografía Dancing Script.*/
+  font-family: 'Dancing Script', cursive;
+  /*CG: 2. Establece el color de fondo negro #02010a.*/
+  background-color: #02010a;
+}
+img
+{
+  /*CG: 3 .Cada imagen tiene un efecto de sombra de 2px con
+  color #02010a.*/
+  -webkit-box-shadow: 2px 2px 0 #02010a;
+}
+
+/*CG: 4 . Crea un div llamado contenido que este centrado y que
+ tenga máximo 900px de ancho para desktop y ocupará el 100%
+ para móviles.*/
+.Contenido
+{
+  align-self: center;
+  max-width: 900px;
+  /*??? 100% movil*/
+}
+.cabecera
+{
+  background-color: #5b7989;
+  border-radius: 10px;
+
+}
+.titulo
+{
+  text-align: left;
+  color: white;
+  text-shadow: 2px 2px #02010a;
+}
+.imagenCentral
+{
+  width: 100%;
+  border-style: dotted ;
+  color:white;
+}
+
+.imagenCentral img
+{
+  display: block;
+  margin: auto;
+}
+/*CG: 5. Utiliza media queries para manejar dos tamaños Desktop:
+ con ancho de 900px o más y móvil con menos de 900px.*/
+@media (min-width:900px)
+{
+  p
+  {
+    color: red;
+  }
+}
+@media (max-width:899px)
+{
+  p
+  {
+    color: blue;
+  }
+}
