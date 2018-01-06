@@ -14,7 +14,7 @@ img
 
 div
 {
-    border-style: dotted ;
+    /*border-style: dotted ;*/
 
 }
 
@@ -30,6 +30,14 @@ div
   background-color: #5b7989;
   border-radius: 10px;
 
+}
+nav {
+  height: 100%;
+}
+.Contenido .cabecera div nav
+{
+  display: block;
+  float: right;
 }
 
 .imagenCentral
@@ -65,6 +73,15 @@ div
   border: 1px;
 }
 
+.Pie
+{
+  display: flex;
+  flex-direction: row;
+  background-color:  #d5c75f ;
+  border: 1px;
+}
+
+
 figcaption
 {
   text-align: center;
@@ -84,8 +101,20 @@ figcaption
     transform: rotate(10deg);
     -webkit-box-shadow: 2px 2px 0 #82c3a6;
 }
+.Pie
+{
+  border-radius: 10px;
+  background-color: #C6d5c5;
+}
 
-
+.redesSociales img
+{
+  -webkit-box-shadow: none;
+}
+.Pie .contacto p
+{
+  line-height: 0.5;
+}
 
 /*CG: 5. Utiliza media queries para manejar dos tamaños Desktop:
  con ancho de 900px o más y móvil con menos de 900px.*/
@@ -99,7 +128,10 @@ figcaption
 {
     width: 100%;
 }
-
+.contacto, .termino, .redesSociales, .derechosAutor
+{
+  width: 25%;
+}
   .Contenido {
   min-width: 900px;
   margin-left: auto;
